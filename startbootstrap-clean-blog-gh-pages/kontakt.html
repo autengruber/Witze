@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -47,7 +47,8 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
                             <h1>Kontakt</h1>
-                            <span class="subheading">Have questions? I have answers.</span>
+                            <span class="subheading">Haben Sie einen Fehler gefunden oder haben Sie Ideen, die zur Verbesserung unserer Witzeseite dienen könnten? </span>
+                            <p>Dann senden Sie uns eine Nachricht!</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +59,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                        <p>Füllen Sie die Felder aus, wenn Sie uns eine Nachricht senden wollen. </p>
                         <div class="my-5">
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -70,24 +71,24 @@
                             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                                 <div class="form-floating">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                    <label for="name">Name</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                    <label for="name">Vor- und Nachname:</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Um uns eine Nachricht senden zu können, müssen Sie bitte Ihren vollständigen Namen eingeben!</div>
                                 </div>
                                 <div class="form-floating">
                                     <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
-                                    <label for="email">Email address</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                    <label for="email">Email Adresse:</label>
+                                    <div class="invalid-feedback" data-sb-feedback="email:required">Um auf Ihre Nachricht eingehen zu können, brauchen wir bitte Ihre Email-Adresse!</div>
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">Die Email-Adresse, die Sie angegeben haben ist leider nicht gültig!.</div>
                                 </div>
                                 <div class="form-floating">
                                     <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" />
-                                    <label for="phone">Phone Number</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                    <label for="phone">Telefonnummer:</label>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">Um uns eine Nachricht schicken zu können, müssen Sie bitte Ihre Telefonnummer eingeben!</div>
                                 </div>
                                 <div class="form-floating">
                                     <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
-                                    <label for="message">Message</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                    <label for="message">Ihre Nachricht an uns:</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Ihre Nachricht ist leer.</div>
                                 </div>
                                 <br />
                                 <!-- Submit success message-->
@@ -96,19 +97,19 @@
                                 <!-- has successfully submitted-->
                                 <div class="d-none" id="submitSuccessMessage">
                                     <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                        <div class="fw-bolder">Ihre Nachricht wurde erfolgreich an uns gesendet.
+                                            <p>Vielen Dank!</p>
+                                        </div>
+                                       
                                     </div>
                                 </div>
                                 <!-- Submit error message-->
                                 <!---->
                                 <!-- This is what your users will see when there is-->
                                 <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Es ist ein Fehler beim Senden ihrer Nachricht aufgetreten, bitte versuchen Sie es später erneut!</div></div>
                                 <!-- Submit Button-->
-                                <button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Send</button>
+                                <button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Nachricht Absenden</button>
                             </form>
                         </div>
                     </div>
@@ -120,33 +121,8 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                       
+                        <div class="small text-center text-muted fst-italic">Website 2022/23</div>
                     </div>
                 </div>
             </div>
