@@ -27,3 +27,12 @@ window.addEventListener('DOMContentLoaded', () => {
         scrollPos = currentTop;
     });
 })
+
+$(function(){
+    $( '.answer_button' ).click(function(){
+   jQuery(this).next().toggle('slow');
+   var txt = jQuery(this).text()==='Lösung anzeigen' ? 'Lösung verstecken' : 'Lösung anzeigen';
+   jQuery(this).text(txt);
+   return false;
+   })
+});
