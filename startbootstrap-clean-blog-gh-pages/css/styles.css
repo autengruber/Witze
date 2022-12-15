@@ -11263,3 +11263,8 @@ header.masthead .site-heading .h1 {
 
 
 }
+
+.buttonrechts{
+  float: right;
+  width: 150px;
+}
