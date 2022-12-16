@@ -11266,7 +11266,7 @@ header.masthead .site-heading .h1 {
 
 .buttonrechts{
   float: right;
-  width: 130px;
+  width: 150px;
   background-color: var(--bs-gray-100) !important; 
   border: none;
   color: black;
@@ -11275,7 +11275,7 @@ header.masthead .site-heading .h1 {
 
 .buttonlinks{
   float: left;
-  width: 130px;
+  width: 150px;
   background-color: var(--bs-gray-100) !important; 
   border: none;
   color: black;
