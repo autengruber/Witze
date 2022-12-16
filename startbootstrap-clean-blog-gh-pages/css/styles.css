@@ -11266,12 +11266,18 @@ header.masthead .site-heading .h1 {
 
 .buttonrechts{
   float: right;
-  width: 125px;
+  width: 130px;
   background-color: var(--bs-gray-100) !important; 
+  border: none;
+  color: black;
+
 }
 
 .buttonlinks{
   float: left;
-  width: 125px;
+  width: 130px;
   background-color: var(--bs-gray-100) !important; 
+  border: none;
+  color: black;
+  
 }
