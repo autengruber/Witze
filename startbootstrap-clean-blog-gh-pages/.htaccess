@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Administrationsbereich"
+AuthUserfile /home/webpages/lima-city/annaautengruber/witze/.htpasswd
+Require valid-user
+
